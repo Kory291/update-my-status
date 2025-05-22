@@ -1,0 +1,14 @@
+[project]
+name = "update-my-status"
+version = "0.1.0"
+description = "This should set my status in Github to some random kpop lyric of groups that I like"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "gql[aiohttp]>=3.5.3",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.3.5",
+]
